@@ -53,7 +53,13 @@ nav ul li a:hover{
     color:black;
 }
 #contact{
-    background-color: rgb(225, 100, 40);
+     background-color: rgb(225, 100, 40);
+}
+#contact a{
+    color: black;
+}
+#contact a:hover{
+    color: white;    
 }
 .sub-menu-1{
     display: none;
@@ -125,11 +131,22 @@ h1{
     height: 20px;
     padding: 20px;
     bottom: 15px;
-    align-items: center;
-   
+    align-items: center; 
+    color: white;
 }
 .bouton:hover {
+    text-decoration: none;
+    padding: 21px;
+    color: black;
     box-shadow: 1px 1px 15px 0px white;
+}
+.bouton a{
+    text-decoration: none;
+    color: white;
+}
+.bouton a:hover{
+    text-decoration: none;
+    color: black;
 }
 /* ----------------|Carrousel|------------------ */
 .container-article {
