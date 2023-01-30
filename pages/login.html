@@ -45,8 +45,8 @@
         </nav>
     </header>
     <main>
-        <section  class="container-form">
-            <form class="item-form">
+        <section class="container-form">
+            <form class="item-form" method="get">
                 <h2>RÉSERVER EN LIGNE</h2><br><br>
                 <div>
                     <label for="email">Adresse email</label><br>
@@ -54,10 +54,12 @@
                 </div>
                 <div><br><br>
                     <label for="motDePasse">Mot de passe</label><br>
-                    <input type="motDePasse">              
+                    <input type="password">              
                 </div>
-                <div class="bouton">
-                    <label for="bouton">CONNECTER</label>
+                <div>
+                    <label for="bouton">
+                        <button id="bouton" type="submit">CONNECTER</button>
+                    </label>
                 </div>
             </form>
         </section>
@@ -67,3 +69,5 @@
     </footer>
 </body>
 </html>
+
+ <!-- <label for="bouton">CONNECTER</label> -->

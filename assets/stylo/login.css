@@ -87,7 +87,6 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     color:black;
 }
 /* ----------------|Content|------------------ */
-
 h2{
     background-color: rgba(225, 100, 40, 1);
     padding: 20px;
@@ -97,13 +96,15 @@ h2{
     text-shadow: white 1px 0 10px;
 }
 .container-form{
-    display: inline-flex;
+    position: relative;
+    display: flex;
     flex-direction: column;
-    
+    margin-top: 150px;
+    margin-left: 700px;
 }
 .item-form{
     position: relative;
-    display: flex;
+    flex-wrap: wrap; 
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -114,10 +115,9 @@ h2{
     border-radius: 15px;  
     width: 400px;
     height: 400px;
-    margin-top: 150px;
-    margin-left: 700px;
+   
 }
-.bouton {
+#bouton {
     position: relative;
     display: flex;
     background-color: rgb(195, 119, 85); 
@@ -125,22 +125,22 @@ h2{
     border-radius: 20px;
     height: 20px;
     padding: 20px;
-    bottom: 15px;
     align-items: center; 
     color: white;
     margin-top: 70px;
+    margin-left: 120px;
 }
-.bouton:hover {
+#bouton:hover {
     text-decoration: none;
     padding: 21px;
     color: black;
     box-shadow: 1px 1px 15px 0px white;
 }
-.bouton label{
+#bouton label{
     text-decoration: none;
     color: white;
 }
-.bouton label:hover{
+#bouton label:hover{
     text-decoration: none;
     color: black;
 }
