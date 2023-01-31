@@ -7,6 +7,7 @@
 }
 body{
     background-image: url(../img/TOTAL.jpg);
+    background-color: rgba(194, 101, 15, 0.4);
     background-repeat:no-repeat;
     background-size: cover;
     display: flex;
@@ -99,8 +100,8 @@ h2{
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
-    margin-left: 700px;
+    align-items: center;
+    top: 150px;
 }
 .item-form{
     position: relative;
@@ -115,7 +116,7 @@ h2{
     border-radius: 15px;  
     width: 400px;
     height: 400px;
-   
+    
 }
 #bouton {
     position: relative;
@@ -149,8 +150,10 @@ footer{
     background-color: rgba(233, 105, 36, 0.8);
     padding: 50px;
     display: flex;
+    flex-direction: column;
     border-radius: 5px;
     border: 0.1rem solid white;
+    margin-top: auto;
 }
 footer p {
     position: relative;
@@ -162,3 +165,4 @@ footer p {
     font-weight: bold;
     margin-left: 40%;
 }
+
