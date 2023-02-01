@@ -148,22 +148,17 @@ h2{
 }
 /* ----------------|Footer|------------------ */
 footer{
-    background-color: rgba(233, 105, 36, 0.8);
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
     border-radius: 5px;
     border: 0.1rem solid white;
-    margin-top: auto;
+    padding: 50px;
+    background-color: rgba(233, 105, 36, 0.8);
 }
 footer p {
-    position: relative;
-    display: flex;
     align-items: center;
     text-align: center;
     color: white;
     text-shadow: black 1px 0 10px;
     font-weight: bold;
-    /* margin-left: 40%; */
 }
+
 

@@ -97,9 +97,11 @@ h1{
     text-shadow: white 1px 0 10px;
 }
 .container-article{
-    display:inline-block;
-    flex-wrap: wrap; 
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0 10%;
 }
 .item-article{
     position: relative;
@@ -107,7 +109,6 @@ h1{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 10px; 
     padding: 20px;
     background-color: rgba(225, 100, 40, 0.8);
     border: 0.1rem solid white;
@@ -115,47 +116,38 @@ h1{
     width: 400px;
     min-height: 400px;
     margin-top: 150px;
-    margin-left: 10px;
 }
-.text-article{
-    display: flex;
-    text-align: center; 
+#text-article{
+    text-align: center;
     padding: 0 50px;
     text-shadow: white 1px 0 10px;
 }
-.bouton {
-    position: absolute;
-    display: flex;
+#bouton {
+    position: relative;
     background-color: rgb(195, 119, 85); 
     border: 0.1rem solid white;
     border-radius: 20px;
     height: 20px;
     padding: 20px;
-    bottom: 15px;
+    bottom: -15px;
     align-items: center; 
     color: white;
 }
-.bouton:hover {
+#bouton:hover {
     text-decoration: none;
     padding: 21px;
     color: black;
     box-shadow: 1px 1px 15px 0px white;
 }
-.bouton a{
+#bouton a{
     text-decoration: none;
     color: white;
 }
-.bouton a:hover{
+#bouton a:hover{
     text-decoration: none;
     color: black;
 }
 /* ----------------|Carrousel|------------------ */
-.container-article {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin:0 10%;
-}
 #carrousel{
     width: 400px;
     height: 400px;
@@ -217,18 +209,18 @@ h1{
 }
 /* ----------------|Footer|------------------ */
 footer{
-    background-color: rgba(233, 105, 36, 0.8);
-    padding: 50px;
-    display: flex;
     border-radius: 5px;
     border: 0.1rem solid white;
+    padding: 50px;
+    background-color: rgba(233, 105, 36, 0.8);
 }
 footer p {
-    position: relative;
-    display: flex;
     align-items: center;
     text-align: center;
     color: white;
     text-shadow: black 1px 0 10px;
     font-weight: bold;
 }
+
+
+

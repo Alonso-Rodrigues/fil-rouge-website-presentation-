@@ -129,7 +129,6 @@ article{
 
 /* ----------------|Footer|------------------ */
 footer{
-    display: inline-flex;
     border-radius: 5px;
     border: 0.1rem solid white;
     padding: 50px;
