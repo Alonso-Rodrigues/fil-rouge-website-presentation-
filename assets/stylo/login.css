@@ -101,7 +101,8 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 150px;
+    top: 100px;
+    z-index: 7;
 }
 .item-form{
     position: relative;
@@ -163,6 +164,6 @@ footer p {
     color: white;
     text-shadow: black 1px 0 10px;
     font-weight: bold;
-    margin-left: 40%;
+    /* margin-left: 40%; */
 }
 
