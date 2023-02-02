@@ -40,7 +40,7 @@ nav ul li{
     padding: 25px;
     background-color: rgba(195, 119, 85, 0.8);
     border-radius: 15px;
-    border: 0.1rem solid white;   
+    border: 0.1rem solid white; 
 }
 nav ul li:hover{
     box-shadow: 1px 1px 15px 0px white;
