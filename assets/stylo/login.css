@@ -23,8 +23,7 @@ nav{
     width: 100%;
     text-align: center;
     background-color: rgba(233, 105, 36, 0.6);
-    border: 0.1rem solid white;
-    
+    border: 0.1rem solid white;    
 }
 nav ul{
     display: inline-flex;
@@ -40,7 +39,7 @@ nav ul li{
     padding: 25px;
     background-color: rgba(195, 119, 85, 0.8);
     border-radius: 15px;
-    border: 0.1rem solid white;   
+    border: 0.1rem solid white;
 }
 nav ul li:hover{
     box-shadow: 1px 1px 15px 0px white;
@@ -71,21 +70,21 @@ nav ul li:hover .sub-menu-1{
     position: absolute;
     margin-block: 80px;
     margin-top: 20px;
-    margin-left: -160px; 
+    margin-left: -160px;
 }
 nav ul li:hover .sub-menu-1 ul{
-    display: block;
+    display: block; 
 }
 nav ul li:hover .sub-menu-1 ul li{
     width: 150px;
     text-align: center;
     border-radius: 15px;
     transition: 0.5s;
-    color: white;
+    color: white; 
 }
 nav ul li:hover .sub-menu-1 ul li:hover{
     background-color: rgba(255, 255, 255, 0.8);
-    color:black;
+    color:black;   
 }
 /* ----------------|Content|------------------ */
 h2{
@@ -102,7 +101,7 @@ h2{
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
-    z-index: 7;
+    
 }
 .item-form{
     position: relative;
