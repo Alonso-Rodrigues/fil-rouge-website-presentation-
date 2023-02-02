@@ -8,7 +8,7 @@
 body{
     background-image: url(../img/TOTAL.jpg);
     background-color: rgba(194, 101, 15, 0.4);
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -101,7 +101,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 100px;
+    margin-top: 80px;
     z-index: 7;
 }
 .item-form{
@@ -115,8 +115,8 @@ h2{
     background-color: rgba(225, 100, 40, 0.8);
     border: 0.1rem solid white;
     border-radius: 15px;  
-    width: 400px;
-    height: 400px;
+    min-width: 400px;
+    min-height: 400px;
     
 }
 #bouton {

@@ -8,7 +8,7 @@
 body{
     background-image: url(../img/background1.jpg);
     background-color: rgba(194, 101, 15, 0.4);
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ h1{
     font-weight: bold;
     text-shadow: white 1px 0 10px;
 }
-.container-article{
+section{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -208,7 +208,7 @@ h1{
     }
 }
 /* ----------------|Footer|------------------ */
-footer{
+footer{   
     border-radius: 5px;
     border: 0.1rem solid white;
     padding: 50px;

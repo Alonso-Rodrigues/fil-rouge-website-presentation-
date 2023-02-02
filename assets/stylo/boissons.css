@@ -88,48 +88,48 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     color:black;
 }
 /* ----------------|Content|------------------ */
-h2{
-    display:inline-flex;
-    background-color: rgba(233, 105, 36, 0.6);
+h1{
+    background-color: rgb(195, 119, 85);
     padding: 20px;
+    width: 200px;
     border: 0.1rem solid white;
     border-radius: 20px;
     font-weight: bold;
     text-shadow: white 1px 0 10px;
-    color: black;
+}
+h2{
+    background-color: rgb(195, 119, 85);
+    padding: 20px;
+    width: 200px;
+    border: 0.1rem solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: white 1px 0 10px;
 }
 section{
-    display:inline-flex;
-    flex-wrap: wrap; 
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    height: 100%;
-    width: 100%;  
-    align-items: center;    
-}
-img{
-    height: 450px;
-    border: 0.1rem solid white;
-    border-radius: 5%;
+    margin:0 10%;
 }
 article{
-    position: relative;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    text-shadow: white 1px 0 10px;
-    color: black;
+    padding: 20px;
+    background-color: rgba(225, 100, 40, 0.8);
     border: 0.1rem solid white;
     border-radius: 15px;  
-    min-height: 450px;
-    width: 500px;
-    padding: 0 5px;
-    background-color: rgba(225, 100, 40, 0.8);
+    width: 80%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: black;
 }
-
 /* ----------------|Footer|------------------ */
-footer{
+footer{   
     border-radius: 5px;
     border: 0.1rem solid white;
     padding: 50px;
@@ -142,3 +142,4 @@ footer p {
     text-shadow: black 1px 0 10px;
     font-weight: bold;
 }
+
